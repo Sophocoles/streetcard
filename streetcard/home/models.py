@@ -10,8 +10,9 @@ from django.db import models
 
 # Wagtail
 from wagtail.core.models import Page
-from wagtail.admin.edit_handlers import FieldPanel
+from wagtail.admin.panels import FieldPanel
 from wagtail.core.fields import RichTextField
+from wagtail.admin.panels import FieldPanel
 
 ##################################################################################
 # Home Page
