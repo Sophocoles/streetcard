@@ -9,7 +9,7 @@
 from django.db import models
 
 # Wagtail
-from wagtail.core.models import Page
+from wagtail.models import Page
 from wagtail.fields import RichTextField
 from wagtail.admin.panels import FieldPanel
 from wagtail.fields import RichTextField
