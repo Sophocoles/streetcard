@@ -2,7 +2,8 @@
 
 from django.db import migrations, models
 import django.db.models.deletion
-import wagtail.fields
+from wagtail.core.fields import RichTextField
+
 
 
 class Migration(migrations.Migration):
@@ -18,7 +19,7 @@ class Migration(migrations.Migration):
             name='AboutPage',
             fields=[
                 ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.page')),
-                ('body', wagtail.fields.RichTextField(blank=True)),
+                ('body', RichTextField(blank=True)),
             ],
             options={
                 'verbose_name': 'about_page',
@@ -29,7 +30,7 @@ class Migration(migrations.Migration):
             name='ContactPage',
             fields=[
                 ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.page')),
-                ('body', wagtail.fields.RichTextField(blank=True)),
+                ('body', RichTextField(blank=True)),
             ],
             options={
                 'verbose_name': 'contact_page',
@@ -40,7 +41,7 @@ class Migration(migrations.Migration):
             name='HomePage',
             fields=[
                 ('page_ptr', models.OneToOneField(auto_created=True, on_delete=django.db.models.deletion.CASCADE, parent_link=True, primary_key=True, serialize=False, to='wagtailcore.page')),
-                ('body', wagtail.fields.RichTextField(blank=True)),
+                ('body', RichTextField(blank=True)),
             ],
             options={
                 'verbose_name': 'home_page',
