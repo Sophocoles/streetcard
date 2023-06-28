@@ -7,7 +7,7 @@ DEBUG = True
 SECRET_KEY = 'django-insecure-yjwnckt1x*=2_9q4cdkgc!fx9xb!*o79)14a)^4asl4kgh#0qq'
 
 # SECURITY WARNING: define the correct hosts in production!
-ALLOWED_HOSTS = ['*'] 
+ALLOWED_HOSTS = ['streetcard.org'] 
 
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
