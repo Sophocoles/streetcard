@@ -37,29 +37,29 @@ function App() {
       <ToastContainer hideProgressBar={true} newestOnTop={true} />
       <Navbar/>
         <Routes>
-          <Route path="/signup" element={<Signup />}  />
-          <Route path="/login" element={<Login />}  />
+          <Route path="/t2/signup" element={<Signup />}  />
+          <Route path="/t2/login" element={<Login />}  />
 
-          <Route path="/" exact element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/mission" element={<Mission />} />
-          <Route path="/newsletter" element={<Newsletter />} />
-          <Route path="/servDir" element={<ServDir />} />
-          <Route path="/dash" element={<Dash />} />
-          <Route path='/ProviderDash' element={<ProviderDash />} />
-          <Route path='/ClientDash' element={<ClientDash />} />
-          <Route path="/stats" element={<Stats />} />
-          <Route path="/help" element={<Help />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/assist" element={<Assist />} />
+          <Route path="/t2/" exact element={<Home />} />
+          <Route path="/t2/about" element={<About />} />
+          <Route path="/t2/mission" element={<Mission />} />
+          <Route path="/t2/newsletter" element={<Newsletter />} />
+          <Route path="/t2/servDir" element={<ServDir />} />
+          <Route path="/t2/dash" element={<Dash />} />
+          <Route path='/t2/ProviderDash' element={<ProviderDash />} />
+          <Route path='/t2/ClientDash' element={<ClientDash />} />
+          <Route path="/t2/stats" element={<Stats />} />
+          <Route path="/t2/help" element={<Help />} />
+          <Route path="/t2/contact" element={<Contact />} />
+          <Route path="/t2/assist" element={<Assist />} />
           
-          <Route path="/encounter/:id" element={<EncounterDetail />} />
-          <Route path="/patientOverview" element={<PatientOverview />} />
+          <Route path="/t2/encounter/:id" element={<EncounterDetail />} />
+          <Route path="/t2/patientOverview" element={<PatientOverview />} />
 
-          <Route path="/providerPatients" element={<ProviderFHIR />} />
+          <Route path="/t2/providerPatients" element={<ProviderFHIR />} />
 
-          <Route path="/providerForm" exact element={<ProviderFormPage />} />
-          <Route path="/providers" element={<ProviderListPage />} />
+          <Route path="/t2/providerForm" exact element={<ProviderFormPage />} />
+          <Route path="/t2/providers" element={<ProviderListPage />} />
         </Routes>
       
     </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const handleLogout = () => {
     dispatch(logout());
-    navigate("/about");
+    navigate("/t2/about");
   };
 
   useEffect(() => {
@@ -36,21 +36,21 @@ const Navbar = () => {
       </div>
 
       <div className="navbar__links">
-        <Link className="links" to="/">Home</Link>
-        <Link className="links" to="/providers">Provider Directory</Link>
-        <Link className="links" to="/about">About</Link>
-        <Link className="links" to="/mission">Mission</Link>
-        <Link className="links" to="/newsletter">Newsletter</Link>
-        <Link className="links" to="/servDir">Service Directory</Link>
-        <Link className="links" to="/dash">Dashboard</Link>
-        <Link className="links" to="/stats">Statistics</Link>
-        <Link className="links" to="/help">How Can I Help?</Link>
-        <Link className="links" to="/contact">Contact</Link>
-        <Link className="links" to="/assist">Support</Link>
+        <Link className="links" to="/t2/">Home</Link>
+        <Link className="links" to="/t2/providers">Provider Directory</Link>
+        <Link className="links" to="/t2/about">About</Link>
+        <Link className="links" to="/t2/mission">Mission</Link>
+        <Link className="links" to="/t2/newsletter">Newsletter</Link>
+        <Link className="links" to="/t2/servDir">Service Directory</Link>
+        <Link className="links" to="/t2/dash">Dashboard</Link>
+        <Link className="links" to="/t2/stats">Statistics</Link>
+        <Link className="links" to="/t2/help">How Can I Help?</Link>
+        <Link className="links" to="/t2/contact">Contact</Link>
+        <Link className="links" to="/t2/assist">Support</Link>
 
         {auth.user?.userData ? (
             <>
-                <Link className="links" to="/providerPatients"><span className="user-name">{auth.user.userData.first_name}</span></Link>
+                <Link className="links" to="/t2/providerPatients"><span className="user-name">{auth.user.userData.first_name}</span></Link>
                 <button className="logout-button" onClick={handleLogout}>Logout</button>
             </>
             ) : (
