@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'search',
     'dashboard',
     
+    'wagtail.core',
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
     'wagtail.embeds',
