@@ -1,0 +1,23 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.large-center-button {
+  min-width: 200px; /* Change width to min-width */
+  height: 50px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 0 10px; /* Add horizontal padding */
+  white-space: nowrap; /* Prevent text from wrapping */
+}

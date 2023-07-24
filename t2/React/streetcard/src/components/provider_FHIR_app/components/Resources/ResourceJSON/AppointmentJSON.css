@@ -1,0 +1,14 @@
+/* AppointmentJSON.css */
+.appointment-summary {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 4px;
+    }
+    
+    .appointment-details {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 8px;
+    margin-bottom: 8px;
+    }

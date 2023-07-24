@@ -1,0 +1,14 @@
+.encounter-details-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .encounter-details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 400px;
+  }
+  

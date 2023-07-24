@@ -1,0 +1,21 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.large-center-button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin: 10px;
+}

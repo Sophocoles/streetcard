@@ -1,0 +1,1 @@
+//meant to replicate the purpose of config.json

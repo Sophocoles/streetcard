@@ -1,0 +1,375 @@
+/* Universal CSS */
+body {
+	/* background: linear-gradient(-45deg, #1f1f1e, #161616, #212122, #423f41);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite; */
+    background-color: rgb(255, 254, 252);
+	height: 100%;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    /* border: 2px solid red;
+    padding: 10em; */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#pageWrapper{
+    margin-top: 8em;
+}
+
+@media screen and (max-width: 980px) {
+    #pageWrapper{
+        margin-top: 16em;
+    }
+}
+
+/* Home CSS */
+.homeImage{
+    display: inline-block;
+    margin-top: -6em;
+    height: 15%;
+    width: 101%;
+}
+.homeHeader h3{
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-style: oblique;
+    width: 10%;
+    float: left;
+    margin-left: 3em;
+    color: #94adff;
+}
+.homeContent{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+}
+.home:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* About CSS */
+.aboutHeader{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-style: oblique;
+    width: 1%;
+    float: left;
+    margin-left: 3em;
+    color: #94adff;
+}
+.aboutContent{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+}
+.aboutSection:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.images{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+
+    .aboutHeader{
+        visibility: hidden;
+    }
+}
+
+/* Mission CSS */
+.missionHeader h2{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-style: oblique;
+    width: 1%;
+    float: left;
+    margin-left: 3em;
+    color: #94adff;
+}
+.missionContent{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+}
+
+.missionBanner{
+    height: 400px;
+    width: 110%;
+    margin-bottom: 12em;
+}
+.missionImg1{
+    padding: 4px 4px 4px 4px;
+    width: 90%;
+    height: 135%;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+}
+
+@media screen and (max-width: 970px){
+    .missionImg1{
+        height: 50%;
+        margin-bottom: -25em;
+    }
+}
+
+/* Newsletter CSS */
+.newsHeader h2{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-style: oblique;
+    width: 10%;
+    float: left;
+    margin-left: 3em;
+    color: #94adff;
+}
+.newsFeed{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+}
+.newsContent:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.newsEntry{
+    border: 4px solid rgb(209, 209, 209);
+    border-radius: 8px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    padding-left: 2em;
+    background-color: #bebebe;
+    box-shadow: 8px 8px 8px black;
+}
+
+.newsletterSignup{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.signupTextboxes *{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signupTextboxes label{
+    font-size: 25px;
+    font-style: oblique;
+}
+.signupTextboxes input{
+    background-color: rgb(199, 199, 199);
+}
+.signupButton{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    background-color: rgb(109, 167, 253);
+    padding: 10px 10px 10px 10px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+}
+
+/* ServDir CSS */
+.dirMap{
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid rgb(184, 184, 184);
+    background-color: #e2e2e2;
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    box-shadow: 1em 1em 1em black;
+}
+.dirMap h2{
+    margin-top: 9em;
+}
+.dirProviders h2{
+    width: 4em;
+}
+.dirOutreach{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 20px;
+    background-color: #bebebe;
+    text-align: center;
+    box-shadow: 1em 1em 1em black;
+}
+.dirPrevention{
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 30%;
+    font-style: oblique;
+    display: block;
+    float: inline-start;
+    border: 2px solid rgb(230, 230, 230);;
+    border-radius: 10px;
+    background-color: #b3b3b3;
+    box-shadow: 1em 1em 1em black;
+}
+.dirVolunteers{
+    margin-top: 20em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 30%;
+    font-style: oblique;
+    display: block;
+    float: inline-start;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    background-color: #d8d8d8;
+    box-shadow: 1em 1em 1em black;
+    margin-bottom: 2em;
+}
+.sectionHeader{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-style: oblique;
+    width: 10%;
+    margin-left: 3em;
+    color: #6990fc;
+    visibility: hidden;
+}
+.sectionContent{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    text-align: center;
+    width: 40%;
+    display: block;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 40px;
+    background-color: #bebebe;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
+/* Dashboard */
+.DashboardContent form{
+    background-color: #d1d2d3;
+    text-align: center;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+    width: 30%;
+    height: 100px;
+}
+
+/* Client Dashboard */
+
+.appStatus{
+    background-color: #d1d2d3;
+    text-align: center;
+    margin-bottom: 4em;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+    width: 30%;
+    height: 100px;
+}
+.jobApps{
+    background-color: #d1d2d3;
+    text-align: center;
+    margin-bottom: 4em;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+    width: 30%;
+    height: 100px;
+}
+
+/* Provider Dashboard */
+.tier1 div{
+    text-align: center;
+    padding: 2px;
+    background-color: #bebebe;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px black;
+}
+.tier2 div{
+    text-align: center;
+    padding: 2px;
+    background-color: #bebebe;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px black;
+}
+.tier3 div{
+    text-align: center;
+    padding: 2px;
+    background-color: #bebebe;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px black;
+}
+.tier4 div{
+    text-align: center;
+    padding: 2px;
+    background-color: #bebebe;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px black;
+}

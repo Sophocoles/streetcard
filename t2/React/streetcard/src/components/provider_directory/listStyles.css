@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .provider-item {
+    background: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .provider-item h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .provider-item p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .services-list {
+    padding-left: 1rem;
+  }
+  
+  .services-list li {
+    padding-bottom: 0.25rem;
+  }
+  

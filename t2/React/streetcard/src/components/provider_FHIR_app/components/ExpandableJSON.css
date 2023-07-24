@@ -1,0 +1,15 @@
+.ExpandableJSON {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ExpandableJSON > li > .key {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .ExpandableJSON > li > ul {
+    margin-left: 1rem;
+  }
+  
