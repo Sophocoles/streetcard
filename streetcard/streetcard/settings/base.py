@@ -14,8 +14,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-BASE_DIR = os.path.dirname(PROJECT_DIR)
-
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 #Secret Key
 SECRET_KEY = '8lu6g0lg)9z!ba+a$ehk)xt)x%rxgb$i1&amp;022shmi1jcgihb'
@@ -164,7 +163,7 @@ STATICFILES_FINDERS = [
 ]
 
 STATICFILES_DIRS = [
-    os.path.join(PROJECT_DIR, 'static'),
+    os.path.join(BASE_DIR, 'static'),
 ]
 
 # ManifestStaticFilesStorage is recommended in production, to prevent outdated
