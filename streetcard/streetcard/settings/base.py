@@ -195,20 +195,4 @@ WAGTAILSEARCH_BACKENDS = {
 WAGTAILADMIN_BASE_URL = 'http://streetcard.org'
 ALLOWED_HOSTS = ['streetcard.org', '164.92.73.2']
 
-# error logging
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': 'DEBUG',
-            'class': 'logging.FileHandler',
-            'filename': '/path/to/your/django/debug.log',
-        },
-    },
-    'root': {
-        'handlers': ['file'],
-        'level': 'DEBUG',
-    },
-}
 
